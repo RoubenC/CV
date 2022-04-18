@@ -1,0 +1,39 @@
+h1 {
+  color:#66BFBF;
+  font-style: normal;
+}
+
+nav {
+  color: #66BFBF;     /*remove hyperlink style, and make the whole top section blue*/
+}
+
+h3 {
+  color: #66BFBF;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+th {
+  text-decoration: underline;
+  color: grey;
+}
+
+body {
+  background-color: #D9E4DD;
+  margin: 10%;
+  margin-top: 0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 45px;
+}
+
+.top-nav {
+  margin-top: 20px;
+  text-align: center;
+
+}

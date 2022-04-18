@@ -3,48 +3,59 @@
 
 <head>
   <meta charset="utf-8">
-  <title>😎 Rouben's Personal Site</title>
+  <title> 😎 Rouben's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <h5><a href="index.html">Home</a></h5>
-  <table cellspacing="20">
-    <tr>
-      <td>
-        <img src="images\Me with Drone-modified.png" alt="Rouben Cherchian profile picture" width="180">
-      </td>
-      <td>
-        <h1>Rouben Cherchian</h1>
-        <p><em>Director of <a href="https://www.instagram.com/jameschasephotography/">James Chase Photography</a></em></p>
-        <p>I'm an aspiring Web and Mobile app developer with a keen interest in Social Media Marketing; coffee lover, Japanese whisky connoisseur.</p>
-      </td>
-    </tr>
-  </table>
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="hobbies.html">My Hobbies</a>
+  </nav>
 
+  <main>
+    <section>
+      <table cellspacing="20">
+        <tr>
+          <td>
+            <img src="images\Me with Drone-modified.png" alt="Rouben Cherchian profile picture" width="180">
+          </td>
+          <td>
+            <h1>Rouben Cherchian</h1>
+            <p><em>Director of <a href="https://www.instagram.com/jameschasephotography/">James Chase Photography</a></em></p>
+            <p>I'm an aspiring Web and Mobile app developer with a keen interest in Social Media Marketing; coffee lover, Japanese whisky connoisseur.</p>
+          </td>
+        </tr>
+      </table>
+    </section>
 
-
-  <hr>
-  <h3><strong>Education</strong></h3>
-    <ul>
-      <li>St Gregoy's Armenian School, 2005.</li>
-        <ul>
-          <li>High School Certificate</li>
-        </ul>
-      <li>TAFE NSW, Light Vehicle Automotive Repair, 2009.</li>
-        <ul>
-          <li>Automotive Vehicle Repairs</li>
-        </ul>
-      <li>AIS Examiners Licence, 2013.</li>
-        <ul>
-          <li>Vehicle roadworthiness inspect and repair licence</li>
-        </ul>
-      <li>Full Stack Web Development Bootcamp, Dr Angela Yu, Udemy, 2022.</li>
+    <section>
+      <hr>
+      <h3 class="edu"><strong>Education</strong></h3>
+      <ul>
+        <li>Full Stack Web Development Bootcamp, Dr Angela Yu, Udemy, 2022.</li>
         <ul>
           <li>WebDev bootcamp for personal and professional development, and a change in career direction to desired industry and lifestyle.</li>
         </ul>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
+        <li>AIS Examiners Licence, 2013.</li>
+        <ul>
+          <li>Vehicle roadworthiness inspect and repair licence</li>
+        </ul>
+        <li>TAFE NSW, Light Vehicle Automotive Repair, 2009.</li>
+        <ul>
+          <li>Automotive Vehicle Repairs</li>
+        </ul>
+        <li>St Gregoy's Armenian School, 2005.</li>
+        <ul>
+          <li>High School Certificate</li>
+        </ul>
+      </ul>
+    </section>
+
+    <section>
+      <hr>
+      <h3>Work Experience</h3>
       <table cellspacing="10">
         <thead>
           <tr>
@@ -61,10 +72,17 @@
             <td>2018-2020</td>
             <td>Mercedes Benz - Service Advisor; Workshop Controller</td>
           </tr>
+          <tr>
+            <td>2015-2018</td>
+            <td>NRMA MotorServe - Service Advisor</td>
+          </tr>
         </tbody>
       </table>
+    </section>
+
+    <section>
       <hr>
-    <h3>Skills</h3>
+      <h3>Skills</h3>
       <table cellspacing="5">
         <tr>
           <td>Mechanical Repairs</td>
@@ -79,11 +97,17 @@
           <td>⭐</td>
         </tr>
       </table>
+    </section>
+  </main>
+
+  <footer>
     <hr>
     <h3>Get to know me personally</h3>
     <p>Check out a list of <a href="hobbies.html"><em>My Hobbies</em></a> right here!</p>
+    <hr>
     <h3>Get in Touch</h3>
     <p>Want to discuss your next project? <a href="contact.html"><em>Contact</em></a> me now, let's chat!</p>
+  </footer>
 </body>
 
 </html>
